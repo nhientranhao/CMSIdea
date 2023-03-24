@@ -1,0 +1,32 @@
+﻿@model CMSIdea.Models.Department
+
+
+<div>
+    <form method="post" asp-action="Delete">
+        <input asp-for="Id" hidden />
+        <div class="border p-3 mt-4  ">
+            <div class="row pb-2">
+                <h2>Delete Department</h2>
+                <hr />
+            </div>
+            @*-----validate all----*@
+            <div asp-validation-summary="All"></div>
+            @*-----end validate all----*@
+            <div class="mb-3 col-5">
+                @*---------*@
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" class="form-control" disabled />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            @*---------*@
+
+            @*---------*@
+            <button type="submit" class="btn btn-primary">Delete</button>
+            <a class="btn btn-primary" asp-controller="Department" asp-action="Index">Back To List</a>
+    </form>
+
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

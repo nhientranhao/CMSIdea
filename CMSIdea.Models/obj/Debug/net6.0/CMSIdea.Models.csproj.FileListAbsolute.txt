@@ -1,0 +1,36 @@
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\bin\Debug\net6.0\CMSIdea.Models.deps.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\bin\Debug\net6.0\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\bin\Debug\net6.0\CMSIdea.Models.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.csproj.AssemblyReference.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.AssemblyInfoInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.AssemblyInfo.cs
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.csproj.CoreCompileInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\obj\Debug\net6.0\refint\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Models\obj\Debug\net6.0\ref\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\bin\Debug\net6.0\CMSIdea.Models.deps.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\bin\Debug\net6.0\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\bin\Debug\net6.0\CMSIdea.Models.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.csproj.AssemblyReference.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.AssemblyInfoInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.AssemblyInfo.cs
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.csproj.CoreCompileInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\obj\Debug\net6.0\refint\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Models\obj\Debug\net6.0\ref\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\bin\Debug\net6.0\CMSIdea.Models.deps.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\bin\Debug\net6.0\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\bin\Debug\net6.0\CMSIdea.Models.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.csproj.AssemblyReference.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.AssemblyInfoInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.AssemblyInfo.cs
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.csproj.CoreCompileInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\obj\Debug\net6.0\refint\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\obj\Debug\net6.0\CMSIdea.Models.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Models\obj\Debug\net6.0\ref\CMSIdea.Models.dll

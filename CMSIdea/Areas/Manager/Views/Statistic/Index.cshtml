@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Topic>
+
+<div class="container p-3 text-light">
+    <div class="row pt-4 ">
+        <div class="col-3 ">
+            <h4>Statistic</h4>
+        </div>
+
+        <div class="raw">
+            <div class="col-12 text-end ">
+                <a asp-controller="Statistic" asp-action="StatisticIdea" class="btn btn-success">
+                    <i class="bi bi-lightbulb"></i>Statistic Idea
+                </a>
+
+                <a asp-controller="Statistic" asp-action="StatisticTopic" class="btn btn-success">
+                    <i class="bi bi-lightbulb"></i>Statistic Topic
+                </a>
+            </div>
+
+            <div class="col-3 text-end ">
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <h4>Index Statistic</h4>
+    <table class="table table-bordered table-striped">
+        <thead>
+        <th>Topic Name</th>
+        <th>Close Date</th>
+        <th>Final Close Date</th>
+        <th></th>
+        </thead>
+
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.CloseDate</td>
+                    <td>@item.FinalCloseDate</td>
+
+                    <td>
+                        <div>
+                            <a asp-area="Admin" asp-controller="Topic" asp-action="ViewIdea" asp-route-id="@item.Id" class="btn btn-primary"><i class="bi bi-box-arrow-in-up-right">View Ideas</i></a>
+                            <a asp-controller="Statistic" asp-action="ExportExcel" asp-route-id="@item.Id" class="btn btn-danger"><i class="bi bi-file-earmark-zip">Exel</i></a>
+                            <a asp-area="Manager" asp-controller="Statistic" asp-action="ExportZip" asp-route-id="@item.Id" target="_blank" class="btn btn-warning"><i class="bi bi-filetype-exe">Zip</i></a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

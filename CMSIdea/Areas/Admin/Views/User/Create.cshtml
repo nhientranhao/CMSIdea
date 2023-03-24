@@ -1,0 +1,93 @@
+﻿@model CMSIdea.Models.ApplicationUser
+@{
+    ViewData["Title"] = "Create";
+}
+<br />
+
+<h2 >Add New User</h2>
+<form asp-action="Create" method="post" id="user-form" enctype="multipart/form-data">
+    <div class="p-4 rounded border">
+        <div asp-validation-summary="ModelOnly" class="text-danger">
+        </div>
+        <h3>@ViewBag.message</h3>
+                <div class="form-group row m-3">
+            <div class="col-2">
+                <label asp-for="Fullname"></label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Fullname" class="form-control"  />
+            </div>
+            <span asp-validation-for="Fullname" class="text-danger" ></span>
+        </div>
+
+        <div class="form-group row m-3">
+            <div class="col-2">
+                <label asp-for="Email"></label>
+            </div>
+            <div class="col-5">
+                <input asp-for="Email" class="form-control"  />
+            </div>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group row m-3">
+            <div class="col-2">
+                <label asp-for="UserName"></label>
+            </div>
+            <div class="col-5">
+                <input asp-for="UserName" class="form-control"  />
+            </div>
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group row m-3">
+            <div class="col-2">
+                <label asp-for="PasswordHash">Password</label>
+            </div>
+            <div class="col-5">
+                <input asp-for="PasswordHash" class="form-control" type="password"  />
+            </div>
+            <span asp-validation-for="PasswordHash" class="text-danger"></span>
+        </div>
+
+
+        <div class="form-group row m-3">
+            <div class="col-2">
+                <label asp-for="PhoneNumber"></label>
+            </div>
+            <div class="col-5">
+                <input asp-for="PhoneNumber" class="form-control"  />
+            </div>
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+                <div class="form-group row m-3 ">
+            <div class="col-2">
+            <label>Department</label>
+            </div>
+            <div class="col-5">
+            <select asp-for="DepartmentId" asp-items="ViewBag.DepartmentId" class="form-control">
+                <option disabled selected>----Select Department----</option>
+            </select>
+            </div>
+                   </div>
+        <span asp-validation-for="DepartmentId" class="text-danger"></span>
+    </div>
+
+        <div class="form-group row  m-3  col-5">
+            <div class="col-2">
+                <label class="control-label ">Avatar</label>
+            </div>
+            <div class="col-7">
+                <input type="file" class="form-control" name="avatar" />
+            </div>
+
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Save" />
+            <a asp-action="Index" class="btn btn-success">Back to List</a>
+        </div>
+    </div>
+</form>
+
+
+

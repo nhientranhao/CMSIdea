@@ -1,0 +1,113 @@
+﻿@model CMSIdea.Models.ViewModel.IdeaVM
+
+<form method="post" asp-action="Delete" enctype="multipart/form-data">
+    <input asp-for="idea.Id" hidden />
+    <input asp-for="idea.UserId" hidden />
+    <input asp-for="idea.FilePath" hidden />
+
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2>Delete idea</h2>
+            <hr />
+        </div>
+
+        <div class="mb-3 col-5">
+            <label asp-for=idea.UserId>User</label>
+            <input asp-for=idea.UserId class=form-control disabled />
+            <span asp-validation-for=idea.UserId class="text-danger"></span>
+        </div>
+        <div class="mb-3 col-5">
+            <label asp-for=idea.Title></label>
+            <input asp-for=idea.Title class=form-control disabled />
+            <span asp-validation-for=idea.Title class="text-danger"></span>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-5">
+                <label asp-for=idea.Brief></label>
+                <input asp-for=idea.Brief class=form-control disabled />
+                <span asp-validation-for=idea.Brief class="text-danger"></span>
+            </div>
+
+        </div>
+
+        <div class="mb-3 col-8">
+            <label asp-for="idea.Content"></label>
+            <textarea asp-for=idea.Content class="form-control" rows="3" disabled></textarea>
+            <span asp-validation-for=idea.Content class="text-danger"></span>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-4">
+                <label asp-for=idea.CategoryId></label>
+                <select asp-for=idea.CategoryId asp-items="Model.CategoryList" class=form-select disabled>
+                    <option disabled onselect=""> -- Select Category --</option>
+                </select>
+                <span asp-validation-for=idea.CategoryId class="text-danger"></span>
+            </div>
+
+            <div class="mb-3 col-4">
+                <label asp-for=idea.TopicId></label>
+                <select asp-for=idea.TopicId asp-items="Model.TopicList" class=form-select disabled>
+                    <option disabled onselect=""> -- Select Category --</option>
+                </select>
+                <span asp-validation-for=idea.TopicId class="text-danger"></span>
+            </div>
+
+
+            <div class="row">
+                <div class="mb-3 col-5">
+                    <label asp-for=idea.DateTime></label>
+                    <input asp-for=idea.DateTime class=form-control disabled />
+                    <span asp-validation-for=idea.DateTime class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for=idea.FilePath>FilePath:</label>
+                    @Html.DisplayFor(model => model.idea.FilePath)
+                </div>
+
+            </div>
+
+            <div class="col-10">
+                <img src="/@Model.idea.FilePath" width="500" />
+            </div>
+        </div>
+
+        @if (Model.idea.Id == 0)
+        {
+            <button type="submit" onclick="return ValidateInput()" class="btn btn-primary">Create</button>
+        }
+        else
+        {
+            <button type="submit" class="btn btn-primary">Delete</button>
+        }
+
+        <a asp-controller="Idea" asp-action="Index" class="btn btn-primary">Back To List</a>
+
+
+</form>
+@section Scripts
+    {
+       <script>
+        function ValidateInput() {
+            if (document.getElementById("filePath").value == "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Something went wrong!',
+                    footer: '<a href="">Please upload file</a>'
+                })
+                return false;
+
+            }
+            return true;
+        }
+             
+    </script>
+
+
+
+}
+
+
+

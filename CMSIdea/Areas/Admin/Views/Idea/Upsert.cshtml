@@ -1,0 +1,106 @@
+﻿@model CMSIdea.Models.ViewModel.IdeaVM
+
+<form method="post" asp-action="Upsert" enctype="multipart/form-data">
+    <input asp-for="idea.Id" hidden />
+    <input asp-for="idea.UserId" hidden />
+    <input asp-for="idea.FilePath" hidden />
+
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2>@(Model.idea.Id == 0 ? "Create" : "Edit")  idea</h2>
+            <hr />
+        </div>
+
+        <div class="mb-3 col-5">
+            <label asp-for=idea.Title></label>
+            <input asp-for=idea.Title class=form-control />
+            <span asp-validation-for=idea.Title class="text-danger"></span>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-5">
+                <label asp-for=idea.Brief></label>
+                <input asp-for=idea.Brief class=form-control />
+                <span asp-validation-for=idea.Brief class="text-danger"></span>
+            </div>
+            <div class="mb-3 col-8">
+                <label asp-for="idea.Content"></label>
+                <textarea asp-for=idea.Content class="form-control" rows="3"></textarea>
+                <span asp-validation-for=idea.Content class="text-danger"></span>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="mb-3 col-4">
+                <label asp-for=idea.CategoryId></label>
+                <select asp-for=idea.CategoryId asp-items="Model.CategoryList" class=form-select>
+                    <option disabled onselect=""> -- Select Category --</option>
+                </select>
+                <span asp-validation-for=idea.CategoryId class="text-danger"></span>
+            </div>
+            <div class="mb-3 col-4">
+                <label asp-for=idea.TopicId></label>
+                <select asp-for=idea.TopicId asp-items="Model.TopicList" class=form-select>
+                    <option disabled onselect=""> -- Select Category --</option>
+                </select>
+                <span asp-validation-for=idea.TopicId class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="mb-3 col-4">
+            <label asp-for=idea.FilePath></label>
+            <input type="file" id="filePath" name="file" class="form-control" />
+        </div>
+
+        @if (Model.idea.Id == 0)
+        {
+            <div class="mb-3 col-5">
+                <label>Agree</label>
+                <input type="checkbox" id="agreeid" name="agreeid" value="1" />
+                <span id="agreeid" class="text-danger"></span>
+            </div>
+
+            <button type="submit" onclick="return ValidateInput()" class="btn btn-primary">Create</button>
+        }
+        else
+        {
+            <div class="col-10">
+                <img src="/@Model.idea.FilePath" width="500" />
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+        }
+
+        <a asp-controller="Idea" asp-action="Index" class="btn btn-primary">Back To List</a>
+    </div>
+
+</form>
+@section Scripts
+    {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        function ValidateInput() {
+
+            if ($('input[name="agreeid"]').is(':checked')) {
+                //checked
+
+            } else {
+                Swal.fire({
+                    icon: '^^',
+                    title: 'Oops...',
+                    text: 'Plz tick Agree!',
+
+                })
+                return false;
+
+            }
+
+
+        }
+
+    </script>
+
+}
+
+
+

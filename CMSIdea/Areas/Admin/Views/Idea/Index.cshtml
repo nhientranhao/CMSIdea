@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Idea>
+
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2>Idea List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Idea" asp-action="Upsert" class="btn btn-primary">
+                <i class="bi bi-plus"></i> Create New Idea
+            </a>
+        </div>
+    </div>
+    <br /><br />
+    <table class="table table-bordered " id="tblData">
+        <thead>
+        <th>Title</th>
+        <th>Brief</th>
+
+        <th>DateTime</th>
+            @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+            {
+            <th>UserId</th>
+            }
+
+        <th>Category</th>
+        <th></th>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><a asp-controller="Idea" asp-action="ViewDetail" asp-route-id="@item.Id">@item.Title</a></td>
+                    <td>@item.Brief</td>
+
+                    <td>@item.DateTime</td>
+                    @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                    {
+                        <td>@item.UserId</td>
+                    }
+                    <td>@item.Category.Name</td>
+                    <td>
+                        @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                        {
+                            <div>
+                                <a asp-controller="Idea" asp-action="Upsert" asp-route-id="@item.Id" class="btn btn-primary"><i class="bi bi-pencil"></i></a>
+                                <a asp-controller="Idea" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                            </div>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+@section Scripts{
+    <script src="~/js/idea.js"></script>
+
+    @**@
+    <script type="text/javascript">
+        let table = new DataTable('#tblData');
+    </script>
+}
+
+

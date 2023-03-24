@@ -1,0 +1,36 @@
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\bin\Debug\net6.0\CMSIdea.Utility.deps.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\bin\Debug\net6.0\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\bin\Debug\net6.0\CMSIdea.Utility.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.csproj.AssemblyReference.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.AssemblyInfoInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.AssemblyInfo.cs
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.csproj.CoreCompileInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\obj\Debug\net6.0\refint\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.Utility\obj\Debug\net6.0\ref\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\bin\Debug\net6.0\CMSIdea.Utility.deps.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\bin\Debug\net6.0\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\bin\Debug\net6.0\CMSIdea.Utility.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.csproj.AssemblyReference.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.AssemblyInfoInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.AssemblyInfo.cs
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.csproj.CoreCompileInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\obj\Debug\net6.0\refint\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.Utility\obj\Debug\net6.0\ref\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\bin\Debug\net6.0\CMSIdea.Utility.deps.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\bin\Debug\net6.0\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\bin\Debug\net6.0\CMSIdea.Utility.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.csproj.AssemblyReference.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.AssemblyInfoInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.AssemblyInfo.cs
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.csproj.CoreCompileInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\obj\Debug\net6.0\refint\CMSIdea.Utility.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\obj\Debug\net6.0\CMSIdea.Utility.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.Utility\obj\Debug\net6.0\ref\CMSIdea.Utility.dll

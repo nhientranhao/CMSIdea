@@ -1,0 +1,37 @@
+﻿@model CMSIdea.Models.Topic
+
+<div>
+    <form method="post" asp-action="Edit">
+        <div class="border p-3 mt-4  ">
+            <div class="row pb-2">
+                <h2>Edit Topic</h2>
+                <hr />
+            </div>
+            @*-----validate all----*@
+            <div asp-validation-summary="All"></div>
+            @*-----end validate all----*@
+            <div class="mb-3 col-5">
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3 col-5">
+
+                <label asp-for="CloseDate">CloseDate</label>
+                <input asp-for="CloseDate" class="form-control" />
+                <span asp-validation-for="CloseDate" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3 col-5">
+
+                <label asp-for="FinalCloseDate">FinalCloseDate</label>
+                <input asp-for="FinalCloseDate" class="form-control" />
+                <span asp-validation-for="FinalCloseDate" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a class="btn btn-primary" asp-controller="Topic" asp-action="Index">Back To List</a>
+    </form>
+
+</div>

@@ -1,0 +1,51 @@
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.deps.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.runtimeconfig.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.Models.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.csproj.AssemblyReference.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.AssemblyInfoInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.AssemblyInfo.cs
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.csproj.CoreCompileInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.csproj.CopyComplete
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\refint\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.genruntimeconfig.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea 3\CMSIdea.DataAccess\obj\Debug\net6.0\ref\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.deps.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.runtimeconfig.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.Models.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.csproj.AssemblyReference.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.AssemblyInfoInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.AssemblyInfo.cs
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.csproj.CoreCompileInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.csproj.CopyComplete
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\refint\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.genruntimeconfig.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea  5\CMSIdea.DataAccess\obj\Debug\net6.0\ref\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.deps.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.runtimeconfig.json
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.DataAccess.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.Models.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\bin\Debug\net6.0\CMSIdea.Models.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.csproj.AssemblyReference.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.AssemblyInfoInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.AssemblyInfo.cs
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.csproj.CoreCompileInputs.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.csproj.CopyComplete
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\refint\CMSIdea.DataAccess.dll
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.pdb
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\CMSIdea.DataAccess.genruntimeconfig.cache
+D:\Mickey\Projects Source Code\.NET Core 6\CMSIdea\CMSIdea.DataAccess\obj\Debug\net6.0\ref\CMSIdea.DataAccess.dll

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Topic>
+
+<div class="container p-3 text-light">
+    <div class="row pt-4 ">
+        <div class="col-6 ">
+            <h4>Topic list</h4>
+        </div>
+        @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+        {
+            <div class="col-6 text-end ">
+                <a asp-controller="Topic" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus"></i>Create  New Topic
+                </a>
+            </div>
+        }
+    </div>
+    <br />
+    <br />
+    <h4>Index Topic</h4>
+    <table class="table table-bordered table-striped">
+        <thead>
+        <th>Topic Name</th>
+        <th>Close Date</th>
+        <th>Final Close Date</th>
+        <th></th>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.CloseDate</td>
+                    <td>@item.FinalCloseDate</td>
+                    <td>
+                        <div>
+                            @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                            {
+                                <a asp-controller="Topic" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary"><i class="bi bi-pencil"></i></a>
+                                <a asp-controller="Topic" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                            }
+                            <a asp-controller="Topic" asp-action="ViewIdea" asp-route-id="@item.Id" class="btn btn-warning"><i class="bi bi-view-stacked"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@section Scripts{
+
+
+    @**@
+    <script type="text/javascript">
+        let table = new DataTable('#tblData');
+    </script>
+}
